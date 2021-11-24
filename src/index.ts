@@ -1,2 +1,2 @@
 export { VoiceChatGame, GameIDs, gameValues } from './VoiceChatGame/VoiceChatGame'
-export { } from './structures/DiscordGameError'
+export { DiscordGamesError } from './structures/DiscordGameError'

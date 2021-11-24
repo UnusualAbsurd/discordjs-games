@@ -1,6 +1,6 @@
 {
-  "name": "discordjs-games",
-  "version": "1.0.0",
+  "name": "@unusualabsurd/discordjs-games",
+  "version": "1.0.2",
   "description": "Create games easily from discord.js client using this package!",
   "main": "dist/index.js",
   "scripts": {
