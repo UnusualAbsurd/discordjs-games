@@ -16,7 +16,7 @@
 
 ```js
 const Discord = require('discord.js');
-const { VoiceChatGame } = require('discordjs-games')
+const { VoiceChatGame } = require('@unusualabsurd/discordjs-games')
 
 const client = new Discord.Client({
     intents: 32767
@@ -52,3 +52,12 @@ if(command === 'youtube') {
     .then(g => message.reply(`Invite Link: ${g.invite} | Invite Code: ${g.code}`))
 }
 ```
+
+# Scramble Game
+```js
+const { scrambleGame } = require('@unusualabsurd/discordjs-games')
+
+if(command === 'scramble') {
+    // Time option must be a number and it is read as milliseconds
+    scrambleGame(message, null, { time: 30 * 1000 })  
+}

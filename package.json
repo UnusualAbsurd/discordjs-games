@@ -1,6 +1,6 @@
 {
   "name": "@unusualabsurd/discordjs-games",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create games easily from discord.js client using this package!",
   "main": "dist/index.js",
   "scripts": {
@@ -36,6 +36,7 @@
   "homepage": "https://github.com/UnusualAbsurd/discordjs-games#readme",
   "dependencies": {
     "discord.js": "^13.3.1",
+    "ms": "^2.1.3",
     "node-fetch": "^2.6.1"
   }
 }
